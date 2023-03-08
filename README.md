@@ -10,6 +10,9 @@ Run the script get_users.py against your management account. Needed access Right
 ## Class Diagramm
 IMPORTANT: You can control wether you want to retrieve only Users, Groups or both with the principal_type attribute in get_bindings_by_account_id.
            Allowed principal_types are 'USER', 'GROUP', 'ALL'. Defaults to 'USER'
+ 
+ ![image](https://user-images.githubusercontent.com/10559693/223778777-d234dcfa-6bae-41db-8053-183126b6636f.png)
+
  ┌──────────────────────────────────────────────────────────────────────────────────┐            ┌────────────────────────────────────────────────┐
  │ SsoAdminRepository                                                               │     ┌──────┤ IdentitystoreRepository                        │
  │                                                                                  │     │      │                                                │
