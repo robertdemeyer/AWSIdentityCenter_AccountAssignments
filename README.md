@@ -15,6 +15,7 @@ IMPORTANT: You can control wether you want to retrieve only Users, Groups or bot
                                                                                                  
 ## Needed Access Rights
 
+```json
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -35,3 +36,4 @@ IMPORTANT: You can control wether you want to retrieve only Users, Groups or bot
         }
     ]
 }
+```
